@@ -11,4 +11,4 @@ module Memorable
   
   module InstanceMethods 
     def initialize 
-      
+      self.class.
