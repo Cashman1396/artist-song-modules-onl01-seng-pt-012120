@@ -1,0 +1,2 @@
+module Memorable 
+  module ClassMethods
