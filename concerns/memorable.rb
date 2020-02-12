@@ -1,4 +1,4 @@
 module Memorable 
   module ClassMethods
     def reset_all
-      self.all
+      self.all.clear
