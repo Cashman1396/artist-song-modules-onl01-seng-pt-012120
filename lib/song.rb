@@ -19,8 +19,4 @@ class Song
     @artist = artist
     artist.add_song(self) unless artist.song.include?(self)
   end
-
-  #def to_param
-    #name.downcase.gsub(' ', '-')
-  #end
 end
